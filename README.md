@@ -241,6 +241,13 @@ Este componente es útil para:
 - Indicar que un proceso está activo aunque no se pueda medir su avance exacto.
 - Mejorar la experiencia de usuario mostrando un feedback visual durante cargas o tareas asíncronas.
 
+-----
+## Capturas de Pantalla de los componentes
+<img width="1902" height="867" alt="Captura de pantalla 2025-07-14 141349" src="https://github.com/user-attachments/assets/b121f4b7-0f95-48bc-8a16-d7ff8aba6961" />
+<img width="1897" height="871" alt="Captura de pantalla 2025-07-14 141414" src="https://github.com/user-attachments/assets/c0a981e1-7318-4e76-b18f-c1bd08663bcf" />
+<img width="1899" height="862" alt="Captura de pantalla 2025-07-14 141429" src="https://github.com/user-attachments/assets/58a2c000-e45e-4239-8e8d-4eebcc3038d7" />
+
+
 ## Link del GitHubPages
 https://jonathanser.github.io/angular-material/
 
