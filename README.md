@@ -206,3 +206,28 @@ Este componente renderiza un ícono simple dentro de la interfaz usando el siste
 - Utiliza la directiva mat-icon con la propiedad fontIcon para especificar el nombre del ícono.
 - Añade atributos de accesibilidad con aria-hidden y aria-label.
 
+### ¿Para qué sirve?
+Este patrón es útil cuando necesitas:
+- Mostrar íconos que acompañan botones, enlaces, formularios o listas.
+- Representar acciones visualmente sin texto (por ejemplo: eliminar, editar, cerrar).
+- Diseñar interfaces más limpias, intuitivas y universales.
+
+## 14. Menu
+Este componente implementa un menú contextual que se activa al hacer clic en un botón con ícono. Muestra una lista de opciones, algunas habilitadas y otras deshabilitadas, cada una con su respectivo ícono.
+
+### ¿Qué hace el componente?
+- Muestra un botón con el ícono more_vert (tres puntos verticales).
+- Al hacer clic en ese botón, se despliega un menú con tres opciones:
+  1. Redial: opción activa.
+  2. Check voice mail: opción deshabilitada.
+  3. Disable alerts: opción activa.
+- Cada opción tiene su propio ícono y texto descriptivo.
+
+### ¿Para qué sirve?
+Este tipo de componente es ideal cuando necesitas:
+- Mostrar opciones relacionadas con una acción en un solo botón.
+- Implementar menús tipo "más acciones", especialmente en tarjetas, tablas, listas o dashboards.
+- Ahorrar espacio sin perder funcionalidad.
+
+## 15. Barra de progreso
+
