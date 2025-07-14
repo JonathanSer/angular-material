@@ -1,0 +1,9 @@
+:host {
+  display: block;
+  margin-left: 15px;
+}
+
+.example-chip-list {
+  width: 100%;
+}
+
