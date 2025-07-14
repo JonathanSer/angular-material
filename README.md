@@ -136,6 +136,7 @@ Se puede utilizar en formularios como:
 - Reservas o eventos.
 - Filtros por rango de fechas.
 
+
 ## 10. Dialogo
 Este componente crea una interfaz interactiva donde el usuario:
 - Escribe su nombre.
@@ -158,3 +159,23 @@ El flujo está diseñado para mostrar cómo recoger información mediante un mod
     - No Thanks: cierra el diálogo sin enviar información.
     - Ok: cierra el diálogo y retorna el animal seleccionado.
 
+### ¿Para qué sirve?
+Este patrón es común cuando necesitas:
+- Capturar información adicional sin redirigir al usuario.
+- Confirmar o seleccionar opciones desde un modal (por ejemplo, formularios, elecciones, advertencias).
+- Separar interacciones complejas en componentes más pequeños y reutilizables.
+
+
+## 11. Divisor
+Este componente muestra una lista vertical de elementos, en donde cada ítem está claramente separado mediante una línea divisora horizontal. Está construido con componentes de Angular Material para lograr una presentación limpia, profesional y visualmente organizada.
+
+### ¿Qué hace el componente?
+- Muestra una lista compuesta por tres elementos: Item 1, Item 2 y Item 3.
+- Entre cada elemento, se coloca un <mat-divider> que dibuja una línea horizontal, ayudando a separar visualmente los elementos.
+- La lista está estilizada y estructurada con el componente MatList de Angular Material.
+
+### ¿Para qué sirve?
+Este patrón es ideal cuando quieres:
+- Mostrar ítems organizados de forma vertical y clara.
+- Separar secciones de contenido con una línea para mejorar la lectura.
+- Crear menús, listados de tareas, elementos de navegación o configuraciones.
