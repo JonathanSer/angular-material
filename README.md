@@ -179,3 +179,30 @@ Este patrón es ideal cuando quieres:
 - Mostrar ítems organizados de forma vertical y clara.
 - Separar secciones de contenido con una línea para mejorar la lectura.
 - Crear menús, listados de tareas, elementos de navegación o configuraciones.
+
+
+## 12. Campo formulario
+Este componente muestra tres tipos básicos de entradas de formulario dentro de contenedores estilizados. Usa componentes de Angular Material para garantizar una presentación visual coherente, accesible y profesional.
+
+### ¿Qué hace el componente?
+Este formulario incluye:
+- Un campo de entrada de texto común (input).
+- Un campo de selección desplegable (select) con opciones.
+- Un área de texto multilínea (textarea).
+
+Todos los campos están envueltos en mat-form-field, lo que les da un estilo uniforme y añade funcionalidades como etiquetas flotantes, bordes definidos y animaciones.
+
+### ¿Para qué sirve?
+Este tipo de componente es útil cuando se desea:
+- Crear formularios modernos y accesibles.
+- Tener distintos tipos de entradas en un mismo formulario.
+- Aplicar un diseño limpio y responsivo de forma sencilla.
+
+## 13. Icono
+Este componente renderiza un ícono simple dentro de la interfaz usando el sistema de íconos de Angular Material. Está diseñado para representar visualmente una acción o elemento, en este caso, un ícono de casa (home).
+
+### ¿Qué hace el componente?
+- Muestra un ícono de casa (home) en pantalla.
+- Utiliza la directiva mat-icon con la propiedad fontIcon para especificar el nombre del ícono.
+- Añade atributos de accesibilidad con aria-hidden y aria-label.
+
