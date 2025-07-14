@@ -230,4 +230,13 @@ Este tipo de componente es ideal cuando necesitas:
 - Ahorrar espacio sin perder funcionalidad.
 
 ## 15. Barra de progreso
+Este componente muestra una barra de progreso visual que indica que una operación está en curso, pero sin un porcentaje específico. Es comúnmente usada para representar procesos cuyo tiempo o avance no se puede cuantificar exactamente.
 
+### ¿Qué hace el componente?
+- Renderiza una barra de progreso que se mueve de manera continua e indefinida, mostrando que una tarea está "en progreso" o "cargando".
+- Utiliza el modo indeterminate para mostrar un efecto de animación constante.
+
+### ¿Para qué sirve?
+Este componente es útil para:
+- Indicar que un proceso está activo aunque no se pueda medir su avance exacto.
+- Mejorar la experiencia de usuario mostrando un feedback visual durante cargas o tareas asíncronas.
